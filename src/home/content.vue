@@ -269,7 +269,10 @@
               <p>硬件：多功能网关、人体传感器、门窗传感器、博联黑豆等</p>
 <!--              <p></p>-->
               <h4>项目操作</h4>
-              <img src="../../src/assets/img/p13.jpg" class="onePage_img">
+              <p>连接人体传感器，以及多功能网关</p>
+              <p>连接树莓派，整理配置信息</p>
+              <p>操作多功能网关灯泡的开关和亮度、以及人体传感器的感应</p>
+<!--              <img src="../../src/assets/img/p13.jpg" class="onePage_img">-->
 <!--              <img src="../../src/assets/img/p11.jpg" class="onePage_img">-->
               <el-button @click="oneTwoNextPage" class="Page_next">下一页<i class="el-icon-arrow-right el-icon--right"></i></el-button>
             </div>
@@ -471,9 +474,11 @@
               <el-button @click="eightNextPage" class="Page_next">下一页<i class="el-icon-arrow-right el-icon--right"></i></el-button>
             </div>
             <div v-show="list.showNine">
-              <img src="../../src/assets/img/p12.jpg" class="onePage_img">
-              <img src="../../src/assets/img/p10.jpg" class="onePage_img">
-              <img src="../../src/assets/img/p11.jpg" class="onePage_img">
+              <p>根据人体传感器（在房屋内没有人的情况下人体感应器检测都人物经过，此时会触发警告条件）以及烟雾探测器（烟雾探测，感温探测，遮挡探测）产生的日志状态信息，给用户发送短信提醒，及时对情况做出判断和决策。</p>
+              <p>如图是学生在操作中查看各种设备的状态信息示例图：</p>
+              <img src="../../src/assets/img/p14.jpg" class="onePage_img">
+<!--              <img src="../../src/assets/img/p10.jpg" class="onePage_img">-->
+<!--              <img src="../../src/assets/img/p11.jpg" class="onePage_img">-->
 <!--              <el-button @click="nineNextPage" class="Page_next">下一页<i class="el-icon-arrow-right el-icon&#45;&#45;right"></i></el-button>-->
             </div>
 <!--            <div v-show="showTen">0-->
